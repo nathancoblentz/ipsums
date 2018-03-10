@@ -1,0 +1,44 @@
+@import "../variables";
+
+$themeColor: $deadThemeColor;
+$bodyFont: $deadBody;
+$headingFont: $deadHeading;
+
+body.deadBody {
+
+	.dead-title {
+	display:inline;
+}
+@include theme($deadThemeColor, $headingFont, $bodyFont);
+background:url('http://lwlcdn.lwlies.com/wp-content/uploads/2017/01/the-grateful-dead.jpg') no-repeat fixed ;
+.btn-group label:nth-child(2) {
+	@extend .active;
+	font-size:20px;
+}
+
+header.container {
+	background-color:transparent;
+	.titles {			
+		h1 {				
+			
+			&:nth-child(1), &:nth-child(3) {
+				display:none;					
+			}
+		}
+	}
+}
+
+
+
+main.container {
+	h1.dead-title {
+		display:inline;
+	}
+}
+
+@media (min-width:960px) {
+	    h1 {
+	        font-size: 15vh
+	    }
+	}
+}

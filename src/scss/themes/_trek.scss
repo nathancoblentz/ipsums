@@ -1,0 +1,79 @@
+@import "../variables";
+@import "../util/util";
+
+
+#body.trekBody {
+
+	@include theme($trekThemeColor, $trekHeading, $trekBody, $trekBackground);	
+
+	main.container {
+		background:black;		
+		.btn-group label::nth-child(2) {
+				
+			}	
+		
+		label {
+			&:nth-child(1) {
+				@include trekBtn($trekOrange);
+			}
+			&:nth-child(2) {
+				@include trekBtn($activeButton);				
+				@include activeRadio;
+			}
+			&:nth-child(3) {
+				@include trekBtn($trekPurple);			
+				} 
+			}
+		
+
+		.btn-group {
+
+
+
+
+			button:nth-child(1) {
+				@include trekBtn($trekOrange);
+			}
+
+			button:nth-child(2) {
+				@include trekBtn($trekSalmon);
+
+			}
+
+			button:nth-child(3) {
+				@include trekBtn($trekPurple);
+			}
+
+			button:nth-child(4) {
+				@include trekBtn($trekBeige);
+			}
+			.showTags {
+				@include trekBtn($trekBlue);
+			}
+		}
+
+		#ipsum-output {
+			color: lighten($trekOrange, 5%);
+		}
+
+	}
+
+
+@media (min-width:960px) {
+
+    main {
+        
+        border-radius: 150px;
+        border-style: solid;
+        border-color: #ff9c63;
+        border-width: 12px 90px;        
+    }
+    main .container {
+        display: block;
+        border-radius: 50px
+    }
+}
+
+}
+
+

@@ -1,0 +1,89 @@
+@import "util/util.scss";
+
+
+//	this is the base color for your theme
+$themeColor: $Amazon;
+//background color
+$bgColor: $themeColor;
+// make primary theme color $themeColor
+$theme-colors: ("primary": ($themeColor));
+//Set this to white to have a 'wrapper' around your site.  Be sure to use <main> for the main container for your content.
+
+$containerColor: #fff;
+// Google Control Panel.  A mixin generates the Google Font import.  
+
+
+$activeButton: #ED3A00;
+
+$bodyFont:	Roboto !default;
+$bodyURL: $bodyFont !default;
+$bodyColor: $Nero !default;
+$bodyStyle: sans-serif !default;
+
+$headingFont:  Ubuntu !default;
+//$headingURL: $headingFont
+//$headingURL: ('Roboto+Slab');
+$headingColor: $themeColor !default;
+$headingStyle: sans-serif !default;
+
+$displayFont:  Playball !default;
+$displayURL: $headingFont !default;
+$displayColor: $themeColor !default;
+$displayStyle: sans-serif !default;
+
+$codeFont:  Inconsolata !default;
+$codeURL: $headingFont !default;
+$codeColor: $themeColor !default;
+$codeStyle: sans-serif !default;
+
+//PHISH THEME
+$phishBlue: #2FB7D5;
+	$phishThemeColor: $phishBlue;
+	$phishHeading: Cherry Cream Soda;
+	$phishHeadingURL: ('Cherry+Cream+Soda');
+	$phishBody: McLaren;
+	$phishBodyURL: $phishBody;
+	$phishBackground: url(https://fanart.tv/fanart/music/e01646f2-2a04-450d-8bf2-0d993082e058/artistbackground/phish-531ed0cc8222e.jpg) fixed;
+
+
+//TREK THEME 
+	
+	$trekBeige: #FF9C63;
+	$trekSalmon: #cf665f;
+	$trekOrange: #ff9509;
+	$trekPurple: #8060e0;
+	$trekBlue: #0B9DD8;
+	$trekThemeColor: $trekBeige;
+	$trekHeading: Iceland;
+	$trekHeadingURL: ('Iceland');
+	$trekBody: Ubuntu Mono;
+	$trekBodyURL: ('Ubuntu + Mono');
+	$trekBackground: url(http://getwallpapers.com/wallpaper/full/8/1/4/29917.jpg) fixed;
+
+////BIBLE THEME
+//
+	//$bibleThemeColor: $Maroon;
+	//$bibleHeading: Pirata One;
+	//$bibleHeadingURL: ('Pirata + One');
+	//$bibleBody: Sumana;
+	//$bibleBodyURL: ('Sumana');
+
+//DEAD THEME
+
+	$deadThemeColor: $Maroon;
+	$deadHeading: Gravitas One;
+	$deadHeadingURL: ('Gravitas + One');
+	$deadBody: Sumana;
+	$deadBodyURL: ('Sumana');
+
+//LIES THEME
+
+	$liesThemeColor: $AstronautBlue;
+	$liesHeading: 	Volkorn;
+	$liesHeadingURL: ('Volkorn:200,900');
+	$liesBody: Volkhov;
+	$liesBodyURL: ('Volkhov');
+	$liesBackground: url('img/resist.jpg') no-repeat fixed;
+
+
+

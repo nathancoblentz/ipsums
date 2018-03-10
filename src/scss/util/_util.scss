@@ -1,0 +1,29 @@
+@import "mixins.scss";
+@import "colors.scss";
+@import "crayola.scss";
+
+.hide {
+	display:none;
+}
+
+.hidden {
+	display:none;
+}
+
+
+@mixin block {
+	display: block;
+}
+
+.show {
+
+	.hide {
+		display:inline;
+	}
+
+	label #toggleHTML {
+		color:red;
+	}
+
+
+}

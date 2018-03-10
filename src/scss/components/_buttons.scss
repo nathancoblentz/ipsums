@@ -1,0 +1,33 @@
+//HIDES RADIO BUTTONS
+	input {
+	display:none !important;
+	}
+
+
+.btn-primary:focus, .btn-primary.focus,
+.btn-primary:active:not([disabled]):not(.disabled),
+.btn-primary.active:not([disabled]):not(.disabled),
+.show > .btn-primary.dropdown-toggle {
+	box-shadow:none !important;
+}
+
+.btn {
+	//margin-bottom: 4px;
+	&:active, &:focus {
+		box-shadow: 0 !important;
+	}
+
+	cursor: pointer;
+}
+
+.showTags {
+	//margin-bottom: 0;
+}
+ 
+
+ .tagsBtn {
+	//display:inline-block;
+	//width: 21.891px;
+	//height: 24px;
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "zellkw-setup",
+  "homepage": "https://github.com/nathancoblentz/gulpthings",
+  "authors": [
+    "DoubtingNate <doubtingnate@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mappy-breakpoints": "^0.2.3",
+    "typi": "^3.1.2"
+  }
+}

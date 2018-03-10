@@ -1,0 +1,37 @@
+@import "../variables";
+@import "../util/util";
+
+
+#body.phishBody {
+
+	@include theme($phishThemeColor, $phishHeading, $phishBody, $phishBackground);	
+
+	main.container {
+		background: white;
+		opacity: 0.9;	
+
+		.btn-group label:nth-child(1) {
+			@include activeRadio;			
+			
+		}
+
+		.show #toggleHTML {
+			@include activeRadio;
+		}
+	
+		.btn {	
+			&:hover {
+				background: darken($phishThemeColor, 10%);
+			}	
+		}
+	}
+
+	@media (min-width:960px) {
+	main {	   		
+		border-radius: 150px;		
+		border-color: $phishThemeColor;
+		border-style: solid;
+		border-width: 30px;	
+	}
+	}
+}

@@ -1,0 +1,66 @@
+@import "../variables";
+@import "../util/util";
+
+
+#body.liesBody {
+
+	@include theme($liesThemeColor, $liesHeading, $liesBody, $liesBackground);
+	background-size: cover;
+
+	h1 {
+		font-weight: 900;		
+		margin-bottom: -20px;	
+	}
+
+
+	main.container {						
+			
+			background-color: white;									
+			
+
+
+		.btn-group label:nth-child(3) {
+			//@include activeRadio;
+			//background-color: white !important;
+			font-size:20px;
+			color: $activeButton !important;
+			//font-weight: 900;
+
+		}
+
+		.btn-group {			
+			border-top: solid 4px $liesThemeColor;
+			border-bottom: solid 4px $liesThemeColor;
+		}
+			
+		.btn {
+			padding: 10px;						
+			margin-right: 10px;
+			background-color: white !important;
+			color: $liesThemeColor;
+			margin-right: 0 !important;
+		}
+		label, input  {
+			margin-right: 0 !important;
+		}
+
+		#ipsum-output {
+			text-align: justify;
+			font-size: 18px;
+			padding: 30px !important;
+			//@extend .row;
+			div.container, ul.container {
+				@extend .col;
+			}
+		}
+
+	}
+
+
+
+@media (min-width:960px) {
+
+}
+
+}
+
