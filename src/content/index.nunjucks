@@ -6,8 +6,8 @@
 <header class="container">
   <div class="titles text-center">
       <h1 class="phish-title">Phishsum</h1>
-      <h1 class="dead-title">Treksum</h1>
-      <h1 class="trek-title">House of Lies</h1>
+      <h1 class="trek-title">Treksum</h1>
+      <h1 class="lies-title">House of Lies</h1>
   </div>
 
 </header>
@@ -36,8 +36,7 @@
       </div>
       <div class="col">
       <h6>Make some ipsums:</h6>
-      <div class="make-ipsums btn-group" role="btn-group">
-      
+      <div class="make-ipsums btn-group" role="btn-group">      
           <button class = "btn btn-primary" role="button" onclick="pButton()">p</button>
           <button class = "btn btn-primary" role="button" onclick="liButton()">li</button>
           <button class = "btn btn-primary" role="button" onclick="radio()">Clear</button>

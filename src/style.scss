@@ -56,12 +56,12 @@ label {
 
 
 div.choose-ipsum {	
-	@include flexbox;
+	//@include flexbox;
 	
-	float:left;
+	//float:left;
 	button {
 		&:nth-child(1), &:nth-child(2), &:nth-child(3) {
-			flex: 1 1 30%;			
+			//flex: 1 1 30%;			
 		}
 	}	
 }
@@ -81,8 +81,9 @@ div.choose-ipsum {
 	font-size: 20px;	
 }
 
-.titles {
+.phish-title, .trek-title, .lies-title {
 	display:none;
+	font-size: 2em;
 }
 
 
@@ -91,6 +92,12 @@ footer {
 	margin-bottom: 0;
 }
 //
+
+	@media (min-width:960px) {
+.title {
+	font-size: 3em;
+}
+}
 //.make-ipsums {	
 	//.btn-primary {
 		//&:nth-child(1) {

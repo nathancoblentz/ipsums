@@ -317,7 +317,7 @@
   // PUSH ORIGIN MASTER: PUSH EVERYTHING TO MY REPO ONCE EVERYTHING IS COMMITTED
 
     gulp.task('push', function() {
-      git.push('origin', 'master', function (err) 
+      git.push('https://github.com/nathancoblentz/ipsums.git', function (err) 
         {
          if (err) throw err; 
        }); 

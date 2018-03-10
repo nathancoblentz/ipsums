@@ -5,6 +5,10 @@
 #body.phishBody {
 
 	@include theme($phishThemeColor, $phishHeading, $phishBody, $phishBackground);	
+	h1.phish-title {
+		display:block;
+	}
+
 
 	main.container {
 		background: white;
@@ -16,7 +20,7 @@
 		}
 
 		.show #toggleHTML {
-			@include activeRadio;
+			background: red;
 		}
 	
 		.btn {	
