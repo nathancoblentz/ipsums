@@ -14,8 +14,10 @@
 		main.container {						
 				
 			background-color: white;
-.btn {
-				@media (min-width:1199px) {.btn {padding: 12px 50px !important;}}
+			@media (min-width:500px) {.btn {padding: 12px 25px !important;}}
+			@media (min-width:1199px) {.btn {padding: 12px 38px !important;}}
+
+			.btn {
 
 				background-color: white !important;
 				color: $liesThemeColor;			

@@ -18,16 +18,18 @@ h1, h2, h3, h4, h5, h6 {
 //HEADING FONT SIZE BY MEDIA QUERY
 
 
-//TITLES, 
-
-		.phish-title, .trek-title, .lies-title {@extend .display-1;}
-	@media (min-width:960px) {
-	}	
+//TITLES	
 	
 	
 	.titles {
 		text-shadow: 0.5px 0.5px 0.5px #000000;
 		padding: 20px;
+	}
+
+	@media(max-width:768px) {
+		.display-1 {
+			font-size: 5rem !important;
+		}
 	}
 
 //HIDE BY DEFAULT
