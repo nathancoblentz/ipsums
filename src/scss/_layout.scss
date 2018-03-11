@@ -1,15 +1,28 @@
 @import "variables.scss";
+	@media(max-width:767px) {
+		padding: 10px;
+	}
+
+
+	@media(min-width:768px) {
+		main.container {
+			padding: 80px;
+		}
+		#ipsum-output {
+			//padding: 50px;
+			height: 500px;
+			overflow: auto;
+		}
+	}
+
 
 main.container {
-	padding: 80px;
+
+	margin: 0 auto;
+	margin-bottom: 80px;
 
 	.btn-group .btn {
 		margin-right: 5px;
 	}
 
-	#ipsum-output {
-		//padding: 50px;
-		height: 500px;
-		overflow: auto;
-	}
 }

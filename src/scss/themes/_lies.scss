@@ -32,12 +32,22 @@
 				@include borderTop(4px, solid,  $liesThemeColor);				
 				@include borderBottom(4px, solid,  $liesThemeColor);				
 
+			}
+
 			#ipsum-output {
 				text-align: justify;
-				font-size: 16px;
-				
+				font-size: 16px;				
 			}
 
 
-			}
-			}}
+				.truth {
+				@extend .text-info;
+				@extend .small;
+				font-style: italic;
+				}
+
+
+
+
+		}
+		}

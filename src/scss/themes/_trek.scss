@@ -10,6 +10,10 @@
 
 	//TREK CONSOLE STYLE BORDER
 
+		@media (max-width:767px) {
+			    //main {@include border(150px, solid, $trekBeige, 12px 90px);}
+			    //main .container {border-radius: 0px}
+		}
 		@media (min-width:768px) {
 			    main {@include border(150px, solid, $trekBeige, 12px 90px);}
 			    main .container {border-radius: 50px}

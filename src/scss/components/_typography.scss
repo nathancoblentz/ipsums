@@ -26,19 +26,28 @@ h1, h2, h3, h4, h5, h6 {
 		padding: 20px;
 	}
 
-	@media(max-width:768px) {
-		.display-1 {
-			font-size: 5rem !important;
+	@media(min-width:960px) {
+		.phish-title {
+			font-size: 8em;
+		}
+
+		.trek-title {
+			font-size:8em;
+		}
+
+		.lies-title {
+			font-size: 5em;
 		}
 	}
 
 //HIDE BY DEFAULT
 
-	.phish-title, .trek-title, .lies-title {display:none;}
+	.phish-title, .trek-title, .lies-title, .lies-link {display:none;}
 
 //ADD TITLE FOR EACH THEME
 
 	.trekBody .trek-title {display:block;}
 	.phishBody .phish-title {display:block;}
-	.liesBody .lies-title {display:block;font-weight: 900;}
+	.liesBody .lies-title {display:block; }
+	.liesBody .lies-link {display:block; }
 
