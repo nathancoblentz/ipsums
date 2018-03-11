@@ -4,66 +4,38 @@
 
 #body.liesBody {
 
-	@include theme($liesThemeColor, $liesHeading, $liesBody, $liesBackground);
-	background-size: cover;
+	//INCLUDE LIES THEME
 
-	h1 {
-		font-weight: 900;				
-	}
+		@include theme($liesThemeColor, $liesHeading, $liesBody, $liesBackground);
+		background-size: cover;
 
-h1.lies-title {
-		display:block;
-	}
+	//MAIN CONTAINER		
 
+		main.container {						
+				
+			background-color: white;
+.btn {
+				@media (min-width:1199px) {.btn {padding: 12px 50px !important;}}
 
-	main.container {						
-			
-			background-color: white;									
-			
+				background-color: white !important;
+				color: $liesThemeColor;			
+			}		
 
-
-		.btn-group label:nth-child(3) {
-			//@include activeRadio;
-			//background-color: white !important;
-			//font-size:20px;
-			color: $activeButton !important;
-			//font-weight: 900;
-
-		}
-
-		.btn-group {			
-			border-top: solid 4px $liesThemeColor;
-			border-bottom: solid 4px $liesThemeColor;
-		}
-			
-		.btn {
-			padding: 10px;						
-			margin-right: 10px;
-			background-color: white !important;
-			color: $liesThemeColor;
-			margin-right: 0 !important;
-		}
-		label, input  {
-			margin-right: 0 !important;
-		}
-
-		#ipsum-output {
-			text-align: justify;
-			font-size: 18px;
-			padding: 30px !important;
-			//@extend .row;
-			div.container, ul.container {
-				@extend .col;
+			.choose-ipsum label:nth-child(3) {
+				color: $activeButton !important;
 			}
-		}
 
-	}
+			.btn-group {
+
+				@include borderTop(4px, solid,  $liesThemeColor);				
+				@include borderBottom(4px, solid,  $liesThemeColor);				
+
+			#ipsum-output {
+				text-align: justify;
+				font-size: 16px;
+				
+			}
 
 
-
-@media (min-width:960px) {
-
-}
-
-}
-
+			}
+			}}

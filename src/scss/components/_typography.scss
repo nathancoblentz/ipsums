@@ -3,26 +3,40 @@
 
 //TYPOGRAPHY
 @include gwf($headingFont, $bodyFont, $displayFont, $codeFont);
+
 body {
-	font-family: $bodyFont !important;
-	color: $bodyColor !important;
+	font-family: $bodyFont; 
+	color: $bodyColor; 
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: $headingFont !important;
-	color: $headingColor !important;
+	font-family: $headingFont; 
+	color: $headingColor; 
 }
 
-.titles {
-	font-size: 5vh !important;
-}
 
-.display-1, .display-2, .display-3, .display-4 {
-	font-family: $displayFont !important;
-	color:$displayColor !important;
-}
+//HEADING FONT SIZE BY MEDIA QUERY
 
-.txt-code {
-	font-family: $codeFont;
-	font-color: theme-color('danger');
-}
+
+//TITLES, 
+
+		.phish-title, .trek-title, .lies-title {@extend .display-1;}
+	@media (min-width:960px) {
+	}	
+	
+	
+	.titles {
+		text-shadow: 0.5px 0.5px 0.5px #000000;
+		padding: 20px;
+	}
+
+//HIDE BY DEFAULT
+
+	.phish-title, .trek-title, .lies-title {display:none;}
+
+//ADD TITLE FOR EACH THEME
+
+	.trekBody .trek-title {display:block;}
+	.phishBody .phish-title {display:block;}
+	.liesBody .lies-title {display:block;font-weight: 900;}
+

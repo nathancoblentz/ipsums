@@ -4,38 +4,46 @@
 
 #body.phishBody {
 
-	@include theme($phishThemeColor, $phishHeading, $phishBody, $phishBackground);	
-	h1.phish-title {
-		display:block;
-	}
+
+	//INCLUDE PHISH THEME
+
+		@include theme($phishThemeColor, $phishHeading, $phishBody, $phishBackground);	
+
+	//PHISH STYLE BORDER
+
+		@media (min-width:960px) {main {@include border(150px, solid, $phishThemeColor,  30px);}}
+
+	//MAIN CONTAINER
+
+		main.container {
+
+		//CONTAINER BACKGROUND
+
+			background: white;
+			opacity: 0.9;	
 
 
-	main.container {
-		background: white;
-		opacity: 0.9;	
+		//BUTTONS
 
-		.btn-group label:nth-child(1) {
-			@include activeRadio;			
+			@media (min-width:1199px) {.btn {padding: 12px 30px !important;}}
+
+			.choose-ipsum label:nth-child(1) {
+				//@include activeRadio;
+				background-color: red !important;						
+			}		
+		
+			.choose-ipsum label {			
+				//padding: 40px;			
+
+				&:hover {
+					background: darken($phishThemeColor, 10%);
+				}	
+			}
 			
+
+			label {
+				margin-bottom: 0;
+			}
 		}
 
-		.show #toggleHTML {
-			background: red;
-		}
-	
-		.btn {	
-			&:hover {
-				background: darken($phishThemeColor, 10%);
-			}	
-		}
-	}
-
-	@media (min-width:960px) {
-	main {	   		
-		border-radius: 150px;		
-		border-color: $phishThemeColor;
-		border-style: solid;
-		border-width: 30px;	
-	}
-	}
 }

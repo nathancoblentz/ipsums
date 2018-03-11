@@ -28,79 +28,82 @@
 
   }
 
-@mixin flexbox {
+@mixin flexBox {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-
 }
-
-
-@mixin grow {
-  
-}
-
 
 // THEME MIXIN
-@mixin theme($Color, $Heading, $Body, $background) {
 
-  @include gwf($Heading, $Body, $displayFont, $codeFont);  
-  background: $background;  
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: $Heading !important;
-    color: $Color !important;
-  }
+    @mixin theme($Color, $Heading, $Body, $background) {
 
-  #ipsum-output, label, .btn  {
-    font-family: $Body !important;
-  }
-
-  .btn-primary {
-    background-color:$Color !important;
-    border-style:none;
-    font-family: $Body !important;    
-  }
-
-  label:active, label:focus {border-style:none;}
-
-  a {
-    color: $Color !important;
-      &:hover {
-        color: darken($Color, 5%) !important;
-        text-decoration: none !important;
-        }
+      @include gwf($Heading, $Body, $displayFont, $codeFont);  
+      background: $background;  
+      
+      h1, h2, h3, h4, h5, h6 {
+        font-family: $Heading !important;
+        color: $Color !important;
       }
+
+      #ipsum-output, label, .btn  {
+        font-family: $Body !important;
+      }
+
+      .btn-primary {
+        background-color:$Color !important;
+        border-style:none;
+        font-family: $Body !important;    
+      }
+
+      label:active, label:focus {border-style:none;}
+
+      a {
+        color: $Color !important;
+          &:hover {
+            color: darken($Color, 5%) !important;
+            text-decoration: none !important;
+            }
+          }
+      }
+
+//ACTIVE RADIO BUTTON
+
+  @mixin activeRadio {        
+          font-size:18px;        
+          font-weight: bold;
+          background-color: $activeButton !important;
+          color:white !important;        
+    }
+
+
+//TREK BUTTONS
+
+
+  @mixin trekBtn($color) {
+    color:black;  
+    height:75px;
+    padding-top: 40px;    
+    border-radius: 4px !important;
+    background-color: $color !important;
+    &:hover {background-color: lighten($color, 5%) !important;}   
+   
+    }
+
+//BORDERS 
+
+  @mixin border($radius, $style, $color, $width) {
+    border-radius: $radius;
+    border-style: $style;
+    border-color: $color;
+    border-width: $width;
   }
 
-
-@mixin activeRadio {        
-        
-        font-weight: bold;
-        background-color: $activeButton !important;
-        color:white !important;        
-}
-
-@mixin trekBtn($color) {
-  color:black;  
-  height:75px;
-  padding-top: 40px;
-  padding-right: 10px;  
-  border-radius: 4px !important;
-  background-color: $color !important;
-  &:hover {background-color: lighten($color, 5%) !important;}
-
-  
-}
+  @mixin borderTop($width, $style, $color) {border-top:$width $style $color;}
+  @mixin borderRight($width, $style, $color) {border-right:$width $style $color;}
+  @mixin borderBottom($width, $style, $color) {border-bottom:$width $style $color;}
+  @mixin borderLeft($width, $style, $color) {border-left:$width $style $color;}
 
 
-@mixin topShadow {
-  display: block;
-  top: 0px;
-  clip: rect(-40px auto 0 auto);
-}
 
-.topshadow {
-  @include topShadow;
-}
+

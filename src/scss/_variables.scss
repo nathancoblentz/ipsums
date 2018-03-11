@@ -38,27 +38,41 @@ $codeStyle: sans-serif !default;
 
 //PHISH THEME
 $phishBlue: #2FB7D5;
-	$phishThemeColor: $phishBlue;
-	$phishHeading: Cherry Cream Soda;
-	$phishHeadingURL: ('Cherry+Cream+Soda');
-	$phishBody: McLaren;
-	$phishBodyURL: $phishBody;
-	$phishBackground: url(https://fanart.tv/fanart/music/e01646f2-2a04-450d-8bf2-0d993082e058/artistbackground/phish-531ed0cc8222e.jpg) fixed;
+$phishThemeColor: $phishBlue;
+$phishHeading: Cherry Cream Soda;
+$phishHeadingURL: ('Cherry+Cream+Soda');
+$phishBody: McLaren;
+$phishBodyURL: $phishBody;
+$phishBackground: url(https://fanart.tv/fanart/music/e01646f2-2a04-450d-8bf2-0d993082e058/artistbackground/phish-531ed0cc8222e.jpg) fixed;
 
 
 //TREK THEME 
 	
-	$trekBeige: #FF9C63;
-	$trekSalmon: #cf665f;
-	$trekOrange: #ff9509;
-	$trekPurple: #8060e0;
-	$trekBlue: #0B9DD8;
-	$trekThemeColor: $trekBeige;
-	$trekHeading: Iceland;
-	$trekHeadingURL: ('Iceland');
-	$trekBody: Ubuntu Mono;
-	$trekBodyURL: ('Ubuntu + Mono');
-	$trekBackground: url(http://getwallpapers.com/wallpaper/full/8/1/4/29917.jpg) fixed;
+$trekBeige: #FF9C63;
+$trekSalmon: #cf665f;
+$trekOrange: #ff9509;
+$trekPurple: #8060e0;
+$trekBlue: #0B9DD8;
+$trekThemeColor: $trekBlue;
+$trekHeading: Iceland;
+$trekHeadingURL: ('Iceland');
+$trekBody: Ubuntu Mono;
+$trekBodyURL: ('Ubuntu + Mono');
+$trekBackground: url(http://getwallpapers.com/wallpaper/full/8/1/4/29917.jpg) fixed;
+
+
+
+//LIES THEME
+
+	$liesThemeColor: $AstronautBlue;
+	$liesHeading: Volkorn;
+	$liesHeadingURL: ('Volkorn:200,900');
+	$liesBody: Volkhov;
+	$liesBodyURL: ('Volkhov');
+	$liesBackground: url('img/resist.jpg') no-repeat fixed;
+
+
+
 
 ////BIBLE THEME
 //
@@ -70,20 +84,10 @@ $phishBlue: #2FB7D5;
 
 //DEAD THEME
 
-	$deadThemeColor: $Maroon;
-	$deadHeading: Gravitas One;
-	$deadHeadingURL: ('Gravitas + One');
-	$deadBody: Sumana;
-	$deadBodyURL: ('Sumana');
-
-//LIES THEME
-
-	$liesThemeColor: $AstronautBlue;
-	$liesHeading: 	Volkorn;
-	$liesHeadingURL: ('Volkorn:200,900');
-	$liesBody: Volkhov;
-	$liesBodyURL: ('Volkhov');
-	$liesBackground: url('img/resist.jpg') no-repeat fixed;
-
+	//$deadThemeColor: $Maroon;
+	//$deadHeading: Gravitas One;
+	//$deadHeadingURL: ('Gravitas + One');
+	//$deadBody: Sumana;
+	//$deadBodyURL: ('Sumana');
 
 

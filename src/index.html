@@ -16,9 +16,9 @@
 
 <header class="container">
   <div class="titles text-center">
-      <h1 class="phish-title">Phishsum</h1>
-      <h1 class="trek-title">Treksum</h1>
-      <h1 class="lies-title">House of Lies</h1>
+      <h1 class="display-3 phish-title">Phishsum</h1>
+      <h1 class="display-1 trek-title">Treksum</h1>
+      <h1 class="display-4 lies-title">House of Lies</h1>
   </div>
 
 </header>
@@ -40,7 +40,7 @@
             <input id="trekOption" class="hidden" type="radio" name="options">Treksum
           </label>
           <label onclick="radio()" class="btn btn-primary">
-            <input id="liesOption" class="hidden" type="radio" name="options">House of Lies
+            <input id="liesOption" class="hidden" type="radio" name="options">Lies
           </label>
         </div>    
         
@@ -48,10 +48,10 @@
       <div class="col">
       <h6>Make some ipsums:</h6>
       <div class="make-ipsums btn-group" role="btn-group">      
-          <button class = "btn btn-primary" role="button" onclick="pButton()">p</button>
-          <button class = "btn btn-primary" role="button" onclick="liButton()">li</button>
-          <button class = "btn btn-primary" role="button" onclick="radio()">Clear</button>
-          <button class = "btn btn-primary" id="copyText" onclick="CopyToClipboard()">Copy</button>
+          <label class = "btn btn-primary" role="button" onclick="pButton()">p</label>
+          <label class = "btn btn-primary" role="button" onclick="liButton()">li</label>
+          <label class = "btn btn-primary" role="button" onclick="radio()">Clear</label>
+          <label class = "btn btn-primary" role="button" id="copyText" onclick="CopyToClipboard()">Copy</label>
           <label onclick="showHTML()" id="toggleHTML" for="showTags" role="button" class="btn btn-primary showTags class1">        
             <input class="hidden" id="showTags" type="checkbox">
             <strong>&#x3C;  &#x3E;</strong>   
@@ -60,6 +60,7 @@
         
       </div>
     </div>
+    <br>
   <!--</div> -->
   <!--<div class="col"> -->
     <!--</div> -->

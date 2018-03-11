@@ -11,14 +11,16 @@
 	box-shadow:none !important;
 }
 
-.btn {
-	//margin-bottom: 4px;
-	&:active, &:focus {
-		box-shadow: 0 !important;
-	}
 
+	
+
+	
+	
+.btn {
 	cursor: pointer;
+	&:active, &:focus {box-shadow: 0 !important;}
 }
+
 
 .showTags {
 	//margin-bottom: 0;
@@ -30,4 +32,3 @@
 	//width: 21.891px;
 	//height: 24px;
 }
-

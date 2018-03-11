@@ -4,76 +4,57 @@
 
 #body.trekBody {
 
-	@include theme($trekThemeColor, $trekHeading, $trekBody, $trekBackground);	
-	h1.trek-title {
-		display:block;
-	}
+	//INCLUDE TREK THEME
 
-	main.container {
-		background:black;		
-		.btn-group label::nth-child(2) {
+		@include theme($trekThemeColor, $trekHeading, $trekBody, $trekBackground);	
+
+	//TREK CONSOLE STYLE BORDER
+
+		@media (min-width:768px) {
+			    main {@include border(150px, solid, $trekBeige, 12px 90px);}
+			    main .container {border-radius: 50px}
+
+		}
+
+
+
+	//MAIN CONTAINER	
+
+		main.container {
+
+			//CONTAINER BACKGROUND
+
+				background:black;
+
+			//PADDING FOR IPSUM BUTTONS 
+
+					@media (min-width:600px) {
+						.btn {padding-left: 40px !important;}
+					}
+
+
+			//TREK BUTTON COLORS
+			
+				.choose-ipsum {
+					label:nth-child(1) {@include trekBtn($trekOrange);}
+					label:nth-child(2) {@include trekBtn($activeButton); @include activeRadio;}
+					label:nth-child(3) {@include trekBtn($trekPurple);} 
+					}
 				
-			}	
-		
-		label {
-			&:nth-child(1) {
-				@include trekBtn($trekOrange);
-			}
-			&:nth-child(2) {
-				@include trekBtn($activeButton);				
-				@include activeRadio;
-			}
-			&:nth-child(3) {
-				@include trekBtn($trekPurple);			
-				} 
-			}
-		
 
-		.btn-group {
+				.make-ipsums {
+					label:nth-child(1) {@include trekBtn($trekOrange);}
+					label:nth-child(2) {@include trekBtn($trekSalmon);}
+					label:nth-child(3) {@include trekBtn($trekPurple);}
+					label:nth-child(4) {@include trekBtn($trekBeige);}
+					.showTags {@include trekBtn($trekBlue);}
+					}
+				}
 
-			button:nth-child(1) {
-				@include trekBtn($trekOrange);
-			}
+				#ipsum-output {color: $trekOrange !important;}
 
-			button:nth-child(2) {
-				@include trekBtn($trekSalmon);
-
-			}
-
-			button:nth-child(3) {
-				@include trekBtn($trekPurple);
-			}
-
-			button:nth-child(4) {
-				@include trekBtn($trekBeige);
-			}
-			.showTags {
-				@include trekBtn($trekBlue);
-			}
 		}
+	
 
-		#ipsum-output {
-			color: lighten($trekOrange, 5%);
-		}
-
-	}
-
-
-@media (min-width:960px) {
-
-    main {
-        
-        border-radius: 150px;
-        border-style: solid;
-        border-color: #ff9c63;
-        border-width: 12px 90px;        
-    }
-    main .container {
-        display: block;
-        border-radius: 50px
-    }
-}
-
-}
 
 
