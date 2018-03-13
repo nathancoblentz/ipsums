@@ -4,6 +4,7 @@
 {% block content %}
 
 <header class="container">
+  <a class="float-right mt-3" href="https://github.com/nathancoblentz/ipsums"><i class="fab fa-github-alt fa-2x"></i></a>
   <div class="titles text-center">
       <h1 class="phish-title">Phishsum</h1>
       <h1 class="trek-title">Treksum</h1>
@@ -40,11 +41,10 @@
       <div class="make-ipsums btn-group" role="btn-group">      
           <label class = "btn btn-primary" role="button" onclick="pButton()">p</label>
           <label class = "btn btn-primary" role="button" onclick="liButton()">li</label>
-          <label class = "btn btn-primary" role="button" onclick="radio()">Clear</label>
-          <label class = "btn btn-primary" role="button" id="copyText" onclick="copyToClipboard()">Copy</label>
+          <label class = "btn btn-primary" role="button" onclick="radio()"><i class="far fa-trash-alt"></i></label>
+          <label class = "btn btn-primary" role="button" id="copyText" onclick="copyToClipboard()"><i class="far fa-copy"></i></label>
           <label onclick="showHTML()" id="toggleHTML" for="showTags" role="button" class="btn btn-primary showTags class1">        
-            <input class="hidden" id="showTags" type="checkbox">
-            <strong>&#x3C;  &#x3E;</strong>   
+              <input class="hidden" id="showTags" type="checkbox"><i class="fas fa-code"></i>
           </label>             
       </div>
         
