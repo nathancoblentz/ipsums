@@ -15,7 +15,7 @@
     
 
 <header class="container">
-  <a class="float-right mt-3" href="https://github.com/nathancoblentz/ipsums"><i class="fab fa-github-alt fa-2x"></i></a>
+  <a class="float-right mt-3" href="https://github.com/nathancoblentz/ipsums" target="blank"><i class="fab fa-github-alt fa-2x"></i></a>
   <div class="titles text-center">
       <h1 class="phish-title">Phishsum</h1>
       <h1 class="trek-title">Treksum</h1>
@@ -35,13 +35,16 @@
       <div class="col">
         <h6>Choose Your Ipsum:</h6>
         <div class="choose-ipsum btn-group btn-group-toggle">
-          <label onclick="radio()" class="btn btn-primary" aria-pressed="true">
-            <input id="phishOption" class="hidden" type="radio" name="options" checked>Phishsum
+          <label onclick="selectTheme()" class="btn btn-primary btn-lorem" aria-pressed="true">
+            <input id="loremOption" class="hidden" type="radio" name="options" checked>Lorem
           </label>
-          <label onclick="radio()" class="btn btn-primary">
+          <label onclick="selectTheme()" class="btn btn-primary btn-phish">
+            <input id="phishOption" class="hidden" type="radio" name="options">Phishsum
+          </label>
+          <label onclick="selectTheme()" class="btn btn-primary btn-trek">
             <input id="trekOption" class="hidden" type="radio" name="options">Treksum
           </label>
-          <label onclick="radio()" class="btn btn-primary">
+          <label onclick="selectTheme()" class="btn btn-primary btn-lies">
             <input id="liesOption" class="hidden" type="radio" name="options">Lies
           </label>
         </div>    
@@ -52,7 +55,7 @@
       <div class="make-ipsums btn-group" role="btn-group">      
           <label class = "btn btn-primary" role="button" onclick="pButton()">p</label>
           <label class = "btn btn-primary" role="button" onclick="liButton()">li</label>
-          <label class = "btn btn-primary" role="button" onclick="radio()"><i class="far fa-trash-alt"></i></label>
+          <label class = "btn btn-primary" role="button" onclick="selectTheme()"><i class="far fa-trash-alt"></i></label>
           <label class = "btn btn-primary" role="button" id="copyText" onclick="copyToClipboard()"><i class="far fa-copy"></i></label>
           <label onclick="showHTML()" id="toggleHTML" for="showTags" role="button" class="btn btn-primary showTags class1">        
               <input class="hidden" id="showTags" type="checkbox"><i class="fas fa-code"></i>

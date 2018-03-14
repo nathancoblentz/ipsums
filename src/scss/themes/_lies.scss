@@ -8,46 +8,54 @@
 
 		@include theme($liesThemeColor, $liesHeading, $liesBody, $liesBackground);
 		background-size: cover;
-
+//
 	//MAIN CONTAINER		
-
+//
 		main.container {						
-				
+//				
 			background-color: white;
-			@media (min-width:500px) {.btn {padding: 12px 25px !important;}}
-			@media (min-width:1199px) {.btn {padding: 12px 38px !important;}}
+			
+		.btn-lies {
+					@include activeRadio;
+			}
 
 			.btn {
 
-				background-color: white !important;
-				color: $liesThemeColor;			
+				border-radius: 50px;//
+				background-color: #000;
+				color: #fff;			
+				padding: 2px 20px !important;
+
 			}		
 
-			.choose-ipsum label:nth-child(3) {
-				color: $activeButton !important;
-			}
-
+			@media (mzx-width:768px) {.btn {padding: 0 10px !important;}}
 			.btn-group {
+				@include flexBox;
+			}//
 
-				@include borderTop(4px, solid,  $liesThemeColor);				
+//
+			.row {
+
+				padding: 10px 0;
 				@include borderBottom(4px, solid,  $liesThemeColor);				
 
 			}
-
+//
 			#ipsum-output {
 				text-align: justify;
 				font-size: 16px;				
 			}
-
-
+//
+//
 				.truth {
 				@extend .text-info;
 				@extend .small;
 				font-style: italic;
 				}
-
+//
 
 
 
 		}
-		}
+	}
+	

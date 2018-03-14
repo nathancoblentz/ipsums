@@ -39,8 +39,9 @@
 			
 				.choose-ipsum {
 					label:nth-child(1) {@include trekBtn($trekOrange);}
-					label:nth-child(2) {@include trekBtn($activeButton); @include activeRadio;}
-					label:nth-child(3) {@include trekBtn($trekPurple);} 
+					label:nth-child(2) {@include trekBtn($trekSalmon);}
+					label:nth-child(3) {@include trekBtn($activeButton);  @include activeRadio;} 
+					label:nth-child(4) {@include trekBtn($trekBlue);}
 					}
 				
 

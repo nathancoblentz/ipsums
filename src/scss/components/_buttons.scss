@@ -32,3 +32,16 @@
 	//width: 21.891px;
 	//height: 24px;
 }
+
+.active {
+	background-color: $red;
+}
+
+.loremBody .btn-lorem,
+.phishBody .btn-phish,
+.trekBody .btn-trek,
+.liesBody .btn-lies {
+	@include activeRadio;
+}
+	 
+

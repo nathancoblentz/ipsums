@@ -2,9 +2,544 @@
  
     var myArray = new Array ();
  
+//LOREM
+
+    myArray[0] = new Array (
+
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+            "Aenean eu ex in dolor ultricies ullamcorper eu eu ante.  ",
+            "Nunc vestibulum at turpis vel molestie.  ",
+            "Donec semper vestibulum aliquam.  ",
+            "Nam eget maximus magna.  ",
+            "Etiam faucibus porttitor nisl, id egestas ligula pharetra eget.  ",
+            "Aliquam fringilla dolor eget magna malesuada varius.  ",
+            "Vivamus nec vulputate elit.  ",
+            "Phasellus vitae faucibus tortor.  ",
+            "Quisque volutpat dolor et quam fringilla, tempor commodo est molestie.  ",
+            "Integer dignissim mi nisi, nec semper lectus auctor placerat.  ",
+            "Nullam a enim sollicitudin ipsum accumsan condimentum.  ",
+            "Nunc nisl massa, vehicula non sagittis et, ultricies a purus.  ",
+            "Mauris eu lobortis ipsum.  ",
+            "Ut quis ex placerat, accumsan sapien a, feugiat nisl.  ",
+            "Phasellus imperdiet facilisis nibh quis imperdiet.  ",
+            "Etiam lacus turpis, laoreet et tristique nec, pellentesque eu erat.  ",
+            "Nulla at mollis velit.  ",
+            "Cras porta mattis lorem sed pellentesque.  ",
+            "Morbi sit amet arcu luctus, porttitor libero vitae, ornare turpis.  ",
+            "Praesent vestibulum vel tortor nec tempus.  ",
+            "Sed in fringilla dui, aliquet fermentum lacus.  ",
+            "Vivamus vitae finibus arcu.  ",
+            "Phasellus eu efficitur urna.  ",
+            "Morbi viverra eros eu finibus tristique.  ",
+            "Proin eget sapien et velit ornare dictum lacinia eu erat.  ",
+            "Nullam dapibus at risus venenatis porttitor.  ",
+            "Phasellus augue nibh, bibendum quis tellus et, euismod dapibus lorem.  ",
+            "Aliquam euismod est nec risus iaculis condimentum.  ",
+            "Vestibulum viverra imperdiet arcu, vel ultricies mauris porttitor quis.  ",
+            "Phasellus vitae lacus tincidunt, scelerisque nisl nec, imperdiet ex.  ",
+            "Integer pretium mauris vitae ante gravida sollicitudin.  ",
+            "Donec non est dolor.  ",
+            "Sed dapibus dignissim sem, finibus mattis sapien sodales sit amet.  ",
+            "Aliquam pulvinar est magna, eu efficitur leo elementum venenatis.  ",
+            "Sed vel nibh ut elit dignissim vestibulum.  ",
+            "Maecenas placerat in est in fermentum.  ",
+            "Maecenas vel semper dui, ac bibendum nulla.  ",
+            "Nulla malesuada magna quis nisl feugiat accumsan.  ",
+            "Proin eleifend nisi turpis, eu rhoncus quam ullamcorper at.  ",
+            "Ut bibendum sapien et leo pretium lobortis.  ",
+            "Suspendisse risus nunc, laoreet eget nulla ultrices, rutrum blandit risus.  ",
+            "Nulla leo est, scelerisque eget tristique at, blandit nec libero.  ",
+            "Nam sagittis purus ut neque luctus, sit amet posuere arcu interdum.  ",
+            "Vivamus vulputate fringilla gravida.  ",
+            "Nunc dolor ipsum, auctor ac dui tristique, faucibus placerat sem.  ",
+            "Nulla facilisi.  ",
+            "Quisque arcu magna, efficitur et feugiat a, vestibulum ac ex.  ",
+            "Donec ante tortor, luctus eget posuere id, viverra ullamcorper odio.  ",
+            "Ut consequat pharetra eros sed gravida.  ",
+            "Nulla facilisi.  ",
+            "Suspendisse risus mi, semper in tempus sagittis, blandit at eros.  ",
+            "Maecenas cursus eget purus tempus suscipit.  ",
+            "Donec mollis vitae nisi sit amet malesuada.  ",
+            "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi convallis dolor vel enim blandit, a efficitur nibh aliquet.  ",
+            "Ut sed felis orci.  ",
+            "Vivamus mauris neque, interdum eget tellus sit amet, vehicula dictum libero.  ",
+            "Nam quis lobortis arcu, in posuere diam.  ",
+            "Aliquam pharetra, tellus sed mattis congue, dui quam volutpat felis, nec tincidunt dui dolor eu elit.  ",
+            "Aenean cursus, magna eu facilisis volutpat, felis est ullamcorper velit, ut interdum sem sem quis ante.  ",
+            "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  ",
+            "Vestibulum gravida diam a mauris iaculis, sit amet molestie nulla tincidunt.  ",
+            "Cras nulla ex, imperdiet vitae nibh ut, scelerisque aliquet leo.  ",
+            "Duis purus lorem, blandit a convallis sit amet, vulputate non dui.  ",
+            "Phasellus ultrices vehicula odio et facilisis.  ",
+            "Vivamus et ipsum quam.  ",
+            "Cras at blandit quam.  ",
+            "Fusce finibus massa urna, sit amet accumsan eros vehicula nec.  ",
+            "Donec sodales fringilla lorem, et vestibulum arcu volutpat vitae.  ",
+            "Praesent sollicitudin metus non dui viverra, eu semper dui convallis.  ",
+            "Morbi ac dignissim risus.  ",
+            "Mauris tincidunt faucibus nisl, a pulvinar sapien.  ",
+            "Duis in euismod nunc.  ",
+            "Pellentesque tincidunt risus dui, in congue justo viverra non.  ",
+            "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce a scelerisque odio.  ",
+            "Vestibulum eu erat est.  ",
+            "Maecenas non pharetra ex, in ultricies quam.  ",
+            "Pellentesque nec massa at augue pharetra blandit.  ",
+            "Integer elit mauris, interdum eget nunc at, commodo tempor arcu.  ",
+            "Fusce convallis dignissim laoreet.  ",
+            "Nunc blandit dui ac ante accumsan imperdiet.  ",
+            "Maecenas bibendum nunc at nulla euismod, eget egestas ligula placerat.  ",
+            "Phasellus tincidunt efficitur lacus non cursus.  ",
+            "Suspendisse in nulla eget arcu sagittis egestas vel nec nunc.  ",
+            "Proin viverra mauris dolor, a semper risus dignissim et.  ",
+            "Suspendisse accumsan enim quis nisl egestas hendrerit.  ",
+            "Nunc porttitor interdum convallis.  ",
+            "Phasellus eget lorem eu mi imperdiet euismod.  ",
+            "Curabitur fermentum tortor at volutpat aliquam.  ",
+            "Suspendisse consequat, lacus maximus laoreet aliquam, ligula tortor vulputate ligula, vel condimentum mauris lectus sed magna.  ",
+            "Nam accumsan id dolor vitae cursus.  ",
+            "Praesent et facilisis erat.  ",
+            "Quisque varius cursus sapien sed vehicula.  ",
+            "Donec eget tortor lectus.  ",
+            "Sed vel neque bibendum quam pharetra convallis.  ",
+            "Mauris eu velit leo.  ",
+            "Ut varius at mauris sed ultricies.  ",
+            "Fusce porttitor efficitur placerat.  ",
+            "Mauris eget commodo nunc.  ",
+            "Fusce vehicula accumsan mi et iaculis.  ",
+            "Quisque convallis vehicula magna vel cursus.  ",
+            "Fusce id bibendum mi.  ",
+            "Nullam leo nibh, sollicitudin ut placerat non, scelerisque a nisi.  ",
+            "Aliquam faucibus mauris ut porta tempus.  ",
+            "Ut tempor risus id sapien rhoncus fermentum.  ",
+            "Duis quis nisi consequat, elementum neque in, molestie ante.  ",
+            "Curabitur consectetur, lorem at tincidunt feugiat, ligula purus feugiat lectus, rhoncus feugiat odio augue sit amet enim.  ",
+            "Ut convallis volutpat bibendum.  ",
+            "Aliquam nibh ex, fermentum vel sagittis et, tempor id nunc.  ",
+            "Vestibulum ornare eros rutrum quam ultrices faucibus.  ",
+            "Maecenas finibus diam finibus odio tristique accumsan.  ",
+            "Praesent pulvinar imperdiet velit, vitae lobortis ligula dapibus auctor.  ",
+            "Sed pulvinar nisi nulla.  ",
+            "Pellentesque porta cursus urna, ac rutrum lectus dignissim non.  ",
+            "Suspendisse tincidunt malesuada felis a volutpat.  ",
+            "Phasellus justo arcu, feugiat eget dui id, aliquet pellentesque urna.  ",
+            "Duis erat mi, semper eu tellus sed, consectetur varius nibh.  ",
+            "Mauris sed suscipit nulla.  ",
+            "Vivamus volutpat libero felis, id semper massa sodales ac.  ",
+            "Maecenas purus leo, fermentum lobortis tortor in, consequat blandit magna.  ",
+            "Sed sollicitudin lacus eget sem interdum dignissim.  ",
+            "Ut volutpat fermentum massa ac imperdiet.  ",
+            "Maecenas rhoncus ipsum lacus, id vehicula felis rutrum id.  ",
+            "Curabitur laoreet nisl et egestas lacinia.  ",
+            "Phasellus sed leo ut enim suscipit sollicitudin.  ",
+            "Suspendisse commodo ante a egestas sagittis.  ",
+            "Aliquam vel mi quis libero tincidunt rhoncus quis a enim.  ",
+            "Vestibulum a scelerisque augue, dictum tincidunt mauris.  ",
+            "Vivamus nec fringilla nibh.  ",
+            "Curabitur porttitor magna id massa molestie, nec eleifend felis ullamcorper.  ",
+            "Donec lacinia justo diam, vitae scelerisque est porttitor ornare.  ",
+            "Duis maximus dictum nibh, eu porttitor massa sagittis nec.  ",
+            "Nulla et neque faucibus, tincidunt est ut, euismod lacus.  ",
+            "Nullam quis libero non mauris lobortis congue.  ",
+            "Nulla fermentum, turpis quis convallis fringilla, nisi mauris aliquet ante, non pharetra nulla augue vitae nunc.  ",
+            "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  ",
+            "Cras eget ante convallis, maximus dolor eget, hendrerit risus.  ",
+            "Praesent vitae placerat velit, eget convallis magna.  ",
+            "Cras ut iaculis velit.  ",
+            "Fusce ante augue, consequat ac aliquam quis, tempor vitae diam.  ",
+            "Aliquam eu sollicitudin nisl, sit amet placerat ligula.  ",
+            "Nulla pellentesque lectus vel vehicula posuere.  ",
+            "Sed lacinia enim orci, nec rhoncus felis sollicitudin semper.  ",
+            "Curabitur in orci mauris.  ",
+            "Fusce vitae ipsum et leo efficitur blandit vel id neque.  ",
+            "Aenean dictum hendrerit erat, eget porttitor dui suscipit sit amet.  ",
+            "In eu odio eu augue dictum pharetra sodales vitae orci.  ",
+            "In ut faucibus ligula.  ",
+            "Aliquam ultrices felis ut lectus tempor, nec elementunulla vulputate.  ",
+            "Vestibulum eget leo ornare sem sodales cursus.  ",
+            "Vestibulum tincidunt ante nec nisl scelerisque dictum.  ",
+            "Mauris volutpat, felis nec ornare interdum, lorem erat pretium leo, fringilla faucibus dui turpis at libero.  ",
+            "Quisque a nunc id ligula posuere faucibus.  ",
+            "Vestibulum quis diam venenatis risus sagittis pellentesque.  ",
+            "Ut at varius massa, eu finibus ante.  ",
+            "Donec accumsan vulputate faucibus.  ",
+            "Donec at elementum risus.  ",
+            "Aenean vel libero ipsum.  ",
+            "Praesent efficitur accumsan pharetra.  ",
+            "Interdum et malesuada fames ac ante ipsum primis in faucibus.  ",
+            "Curabitur ac est pretium felis condimentum eleifend eu ut elit.  ",
+            "Integer lobortis rutrum nisi at sodales.  ",
+            "Curabitur mollis libero sit amet orci venenatis, quis luctus nisi finibus.  ",
+            "Aliquam et ipsum pharetra, mattis mi et, volutpat purus.  ",
+            "Praesent pellentesque ligula et diam aliquet cursus.  ",
+            "Donec sit amet massa pellentesque erat bibendum ultrices vitae id turpis.  ",
+            "Phasellus eu mi eu nibh porta auctor nec nec erat.  ",
+            "Suspendisse fringilla vitae nisi et ultrices.  ",
+            "Phasellus lobortis, ipsum at blandit iaculis, est metus suscipit arcu, a vestibulum dolor justo ut enim.  ",
+            "Integer feugiat malesuada porttitor.  ",
+            "Curabitur placerat sagittis metus, in viverra felis venenatis sed.  ",
+            "Vivamus sit amet lobortis mauris.  ",
+            "Sed laoreet nisi convallis, posuere orci quis, ultricies arcu.  ",
+            "Suspendisse at metus porttitor, interdum nisl id, accumsan diam.  ",
+            "Ut quis orci sed nulla fringilla auctor at ac nibh.  ",
+            "Donec tellus sapien, finibus ac urna vitae, auctor ultrices ex.  ",
+            "Donec rutrum dui id nulla blandit ullamcorper.  ",
+            "Aliquam erat volutpat.  ",
+            "Cras aliquam in mi at efficitur.  ",
+            "Duis ac nisi ultricies, dapibus metus vel, sagittis odio.  ",
+            "Integer pharetra ullamcorper lobortis.  ",
+            "In in ultricies urna, vitae congue odio.  ",
+            "Vestibulum feugiat tortor enim, et auctor tellus lacinia vitae.  ",
+            "Donec felis augue, sollicitudin eget dui vulputate, posuere laoreet enim.  ",
+            "Sed porta rhoncus arcu, sit amet posuere enim tincidunt vitae.  ",
+            "Morbi ullamcorper magna a nulla dapibus, eu tristique velit tempor.  ",
+            "Ut ac lectus sit amet augue elementum aliquet.  ",
+            "Maecenas ac ex placerat, vehicula neque nec, sodales nibh.  ",
+            "Etiam semper rhoncus leo, vitae fermentum metus pretium eget.  ",
+            "In cursus sit amet lacus a pulvinar.  ",
+            "Donec sed ultrices nunc.  ",
+            "Mauris mattis hendrerit arcu nec commodo.  ",
+            "Ut diam ligula, lobortis in faucibus nec, rutrum sit amet quam.  ",
+            "Duis purus orci, iaculis non vestibulum sed, hendrerit nec orci.  ",
+            "Vestibulum in tellus gravida, blandit erat vel, pellentesque arcu.  ",
+            "Sed sodales non urna nec vulputate.  ",
+            "Phasellus vulputate risus ornare ligula euismod ornare.  ",
+            "Donec quis tristique sem.  ",
+            "Pellentesque iaculis tincidunt ullamcorper.  ",
+            "Vestibulum finibus lectus nec feugiat malesuada.  ",
+            "Praesent blandit ante sed urna tempus interdum.  ",
+            "Aliquam commodo lobortis risus, eget gravida odio euismod sit amet.  ",
+            "Suspendisse aliquam imperdiet lacinia.  ",
+            "Proin ac blandit erat.  ",
+            "Vestibulum commodo placerat eros, eget congue nulla mollis eget.  ",
+            "Mauris vel eleifend nibh.  ",
+            "Integer lacinia ligula ut suscipit malesuada.  ",
+            "Vivamus ultricies ipsum turpis, sit amet facilisis purus cursus at.  ",
+            "In risus metus, feugiat quis risus id, aliquet porta est.  ",
+            "Donec feugiat dolor sed feugiat tempus.  ",
+            "Nulla facilisi.  ",
+            "Pellentesque lacinia id lectus sit amet maximus.  ",
+            "Aenean condimentum luctus sapien, vel convallis justo accumsan ut.  ",
+            "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent id turpis felis.  ",
+            "Nullam suscipit eros ac neque interdum, non ultricies elit pulvinar.  ",
+            "Vivamus vestibulum, ex quis euismod commodo, augue quam facilisis magna, non luctus diam justo sed leo.  ",
+            "Nullam lobortis eget tellus ut cursus.  ",
+            "Integer vel molestie nibh.  ",
+            "Sed eu neque odio.  ",
+            "Pellentesque tincidunt pellentesque nibh id consequat.  ",
+            "Nullam vitae pulvinar mi.  ",
+            "Quisque augue purus, ultricies at eleifend nec, vestibulum in eros.  ",
+            "Vestibulum sagittis massa diam, vitae lacinia enim eleifend non.  ",
+            "Integer at nunc elit.  ",
+            "Vivamus fringilla dapibus augue, sed vestibulum metus viverra in.  ",
+            "Nulla neque arcu, dapibus non urna sit amet, tempus aliquam elit.  ",
+            "Praesent faucibus consequat finibus.  ",
+            "Pellentesque placerat, enim finibus gravida convallis, leo mi varius quam, non feugiat elit turpis et urna.  ",
+            "Nullam vitae quam aliquet, ultricies augue at, finibus erat.  ",
+            "Cras quis velit interdum, tincidunt ex sit amet, fringilla turpis.  ",
+            "Pellentesque blandit felis a erat auctor, non imperdiet risus facilisis.  ",
+            "Sed fringilla erat non elit faucibus accumsan.  ",
+            "Vestibulum aliquet fringilla nisi, eu dictum nisi consectetur ac.  ",
+            "Vivamus viverra libero vel dui tempus lobortis.  ",
+            "Donec urna lacus, consectetur at eros porta, porttitor iaculis nibh.  ",
+            "Aliquam ut ipsum at est molestie imperdiet.  ",
+            "Suspendisse venenatis scelerisque velit, et blandit erat.  ",
+            "Ut maximus nec mauris tempus convallis.  ",
+            "Sed quis convallis orci, ut pretium dui.  ",
+            "Cras auctor lacus non sapien faucibus dignissim ut a mi.  ",
+            "Donec vehicula felis et est bibendum fermentum.  ",
+            "In hac habitasse platea dictumst.  ",
+            "Vestibulum lobortis eleifend neque, sit amet tincidunt nulla.  ",
+            "Maecenas dignissim, nisl nec rutrum finibus, lacus odio egestas ante, in sollicitudin erat justo non arcu.  ",
+            "Praesent pharetra neque quis erat suscipit, eu pharetra purus facilisis.  ",
+            "Quisque eu nunc varius, scelerisque neque aliquet, mattis tellus.  ",
+            "Quisque vulputate mauris ac mi vehicula consequat.  ",
+            "Aenean at cursus tellus, et congue ex.  ",
+            "Donec quis aliquet turpis.  ",
+            "Nullam eget gravida neque.  ",
+            "Suspendisse consectetur vehicula quam a sollicitudin.  ",
+            "Nullam mattis porta ipsum, non ullamcorper mi aliquet at.  ",
+            "Ut nulla urna, congue eu iaculis vitae, egestas non tellus.  ",
+            "Integer ornare consequat sem, et cursus turpis rhoncus non.  ",
+            "Nunc scelerisque enim vel augue volutpat placerat.  ",
+            "Cras vehicula dapibus ante ut varius.  ",
+            "Vivamus et enim fringilla, commodo tellus quis, tempor leo.  ",
+            "Cras ligula sem, pulvinar at purus vel, molestie porttitor tortor.  ",
+            "Sed lobortis nisl et orci ullamcorper condimentum.  ",
+            "In eu feugiat nisi.  ",
+            "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  ",
+            "Vivamus iaculis luctus elit nec vehicula.  ",
+            "Duis dapibus, justo eget varius imperdiet, lorem velit tincidunt nibh, at maximus sapien ligula vitae nisl.  ",
+            "Phasellus sagittis efficitur magna, ut eleifend ex condimentum a.  ",
+            "Mauris tempus sollicitudin imperdiet.  ",
+            "Sed ut dolor feugiat, finibus neque lacinia, sollicitudin tortor.  ",
+            "Maecenas pretium massa nunc.  ",
+            "Suspendisse suscipit libero id dui feugiat efficitur.  ",
+            "Phasellus finibus commodo elit, vel facilisis nisi pharetra quis.  ",
+            "Phasellus vestibulum orci lectus.  ",
+            "Donec et risus finibus, placerat massa vel, pulvinar est.  ",
+            "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.  ",
+            "Fusce erat ex, ullamcorper ut porttitor nec, semper id metus.  ",
+            "Sed vitae est vel ante scelerisque maximus rutrum ac mauris.  ",
+            "Suspendisse arcu mi, rutrum eget consequat a, aliquet ut enim.  ",
+            "Nunc condimentum nisi et arcu ullamcorper tincidunt.  ",
+            "Proin lacinia, elit sit amet tristique aliquam, ex ipsum convallis quam, nec faucibus justo neque at magna.  ",
+            "In pharetra lorem non sapien varius venenatis.  ",
+            "Sed eget fermentum ex, laoreet placerat turpis.  ",
+            "Nulla facilisi.  ",
+            "Maecenas a interdum turpis.  ",
+            "Praesent imperdiet venenatis rhoncus.  ",
+            "Nam facilisis congue interdum.  ",
+            "Integer non molestie magna.  ",
+            "Vivamus blandit rhoncus tortor quis vulputate.  ",
+            "Fusce at imperdiet tortor.  ",
+            "Donec pulvinar tincidunt rutrum.  ",
+            "Etiam tempor ex convallis, ornare felis ac, sollicitudin sapien.  ",
+            "Duis et commodo mauris.  ",
+            "Nam et nunc massa.  ",
+            "Pellentesque sollicitudin, ipsum eget mattis molestie, erat orci egestas orci, feugiat auctor dolor metus et nulla.  ",
+            "Nam sed velit non tortor mollis rutrum at laoreet odio.  ",
+            "In ut leo vel risus faucibus volutpat.  ",
+            "Integer vehicula, turpis vel feugiat blandit, arcu ipsum lacinia ligula, vitae vehicula urna lorem ut lacus.  ",
+            "Suspendisse pharetra risus in mollis dapibus.  ",
+            "Fusce vestibulum fermentum erat ut dictum.  ",
+            "Fusce porttitor diam quam, eu bibendum lacus convallis sed.  ",
+            "Nullam magna sem, sollicitudin vel ullamcorper vel, viverra sit amet risus.  ",
+            "Nam at bibendum arcu.  ",
+            "Nam id egestas metus, ornare tincidunt nulla.  ",
+            "Maecenas ac mollis ante.  ",
+            "Sed venenatis, odio sed tristique rhoncus, sapien lacus vehicula nibh, ac ultrices ipsum neque eu augue.  ",
+            "Sed sed ante egestas, pharetra erat mollis, euismod lorem.  ",
+            "Donec tincidunt, nibh ut auctor lobortis, libero justo lacinia diam, vitae fermentum metus orci sed nibh.  ",
+            "Sed tempus lorem quam, in aliquam orci dignissim sit amet.  ",
+            "Aliquam id enim vitae augue tristique ultrices.  ",
+            "In ullamcorper dictum erat, sed venenatis nisl faucibus vitae.  ",
+            "Donec maximus odio ac egestas vestibulum.  ",
+            "Aliquam tortor dolor, convallis eu quam et, dapibus aliquam nulla.  ",
+            "Nulla a fringilla elit.  ",
+            "Sed scelerisque, dui sed aliquet finibus, libero ante consectetur nisi, sit amet gravida nibh odio ut ex.  ",
+            "Etiam sit amet felis magna.  ",
+            "Quisque lacinia lorem non magna cursus, non cursus dui luctus.  ",
+            "Nullam fermentum eleifend viverra.  ",
+            "Morbi in tempor orci, eget venenatis elit.  ",
+            "Donec vel elit tortor.  ",
+            "Curabitur vel fringilla orci.  ",
+            "Duis a lorem ut urna maximus viverra.  ",
+            "Duis imperdiet volutpat mauris id blandit.  ",
+            "Praesent ut mi mollis, bibendum est vel, consectetur nibh.  ",
+            "Phasellus laoreet dolor at lorem facilisis pulvinar.  ",
+            "Nullam malesuada posuere mi ut mattis.  ",
+            "Mauris dictum leo eget magna feugiat tempus.  ",
+            "Integer lobortis dolor eu condimentum lacinia.  ",
+            "Pellentesque molestie purus at nisl tincidunt gravida.  ",
+            "Aenean eu maximus magna, non cursus tortor.  ",
+            "Donec in pellentesque neque, eu tincidunt sem.  ",
+            "Etiam imperdiet urna mauris, et tempus risus bibendum ac.  ",
+            "Proin porta consectetur felis sit amet condimentum.  ",
+            "Sed fermentum ornare augue, imperdiet aliquam massa mattis bibendum.  ",
+            "Sed vestibulum at est id vestibulum.  ",
+            "Morbi et est non dui ultrices mollis at vel diam.  ",
+            "Mauris interdum, urna et consequat pulvinar, neque mauris tincidunt arcu, a dapibus enim massa sit amet sem.  ",
+            "Quisque eget dolor ac nunc porttitor luctus.  ",
+            "Nulla condimentum sapien nec eros sollicitudin pellentesque.  ",
+            "Mauris lacus ligula, varius dictum tortor ac, ullamcorper hendrerit leo.  ",
+            "Sed congue eu arcu et faucibus.  ",
+            "Curabitur diam massa, viverra eu nibh ac, scelerisque fringilla diam.  ",
+            "Ut id lacinia tortor, et consequat eros.  ",
+            "Proin vel massa sit amet nisl lacinia iaculis eu quis massa.  ",
+            "Aenean rhoncus nibh sit amet finibus faucibus.  ",
+            "Aliquam fringilla blandit ligula, dictum semper lorem dignissim quis.  ",
+            "Vivamus gravida enim quis justo facilisis, sit amet volutpat libero tristique.  ",
+            "Phasellus lectus nisl, faucibus eu ligula ut, vulputate convallis nulla.  ",
+            "Donec eu volutpat orci, ut malesuada ligula.  ",
+            "Maecenas ultricies tempus bibendum.  ",
+            "Aliquam pharetra nisl sit amet elementum ultrices.  ",
+            "Sed dignissim erat eu posuere tempor.  ",
+            "Pellentesque sit amet venenatis est.  ",
+            "Quisque tincidunt eleifend magna, vitae gravida sem molestie cursus.  ",
+            "Vestibulum sit amet magna tincidunt, congue leo et, pellentesque leo.  ",
+            "Sed at diam ac libero aliquet aliquam.  ",
+            "Aliquam eu massa scelerisque, vulputate sapien quis, venenatis mauris.  ",
+            "Etiam aliquet, ipsum et mollis porta, nunc purus mollis odio, vel porttitor justo mi a magna.  ",
+            "Morbi at nisl sit amet quam sodales blandit.  ",
+            "Nunc egestas eros nec lectus ornare, ac scelerisque turpis posuere.  ",
+            "Vestibulum in diam aliquet, scelerisque lorem id, tristique sem.  ",
+            "Donec augue ligula, iaculis consectetur magna eget, sodales ultricies metus.  ",
+            "Cras tristique ligula consectetur mi ullamcorper, quis laoreet dolor scelerisque.  ",
+            "Nulla in ex eu tellus scelerisque feugiat.  ",
+            "Curabitur placerat porta sem quis molestie.  ",
+            "Aliquam mattis nunc orci, sed pulvinar augue porta id.  ",
+            "Sed dignissim placerat nulla in mollis.  ",
+            "Phasellus ac arcu in nisl laoreet eleifend.  ",
+            "Nulla lacus lorem, vulputate a nisl ut, pharetra tempus enim.  ",
+            "Phasellus egestas, justo non efficitur auctor, ipsum diam accumsan enim, eget rutrum tortor urna in felis.  ",
+            "Praesent et arcu a dolor tincidunt cursus.  ",
+            "Aenean sodales ultricies orci et euismod.  ",
+            "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras non mollis dui.  ",
+            "Donec gravida posuere orci, ac venenatis turpis suscipit non.  ",
+            "Curabitur blandit aliquet tristique.  ",
+            "Sed non molestie nunc.  ",
+            "Duis euismod consequat arcu eget vulputate.  ",
+            "Cras vel lectus purus.  ",
+            "Donec vitae turpis nunc.  ",
+            "Ut tincidunt cursus elit et fermentum.  ",
+            "Ut commodo, urna a elementum aliquet, est nisl commodo risus, id maximus lorem lacus sed nibh.  ",
+            "Nulla a eros quis tellus venenatis fermentum.  ",
+            "Donec porta, magna at consequat tincidunt, ipsum lorem placerat leo, sit amet pretium quam quam sed nibh.  ",
+            "Nam ut leo ullamcorper, mollis magna suscipit, scelerisque dolor.  ",
+            "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  ",
+            "Etiam vel feugiat sapien.  ",
+            "Curabitur pharetra interdum lorem ac aliquet.  ",
+            "Vestibulum viverra arcu ante, ut rutrum nibh lacinia sed.  ",
+            "Donec nec dui vitae neque gravida interdum.  ",
+            "Nam maximus lacus ante, ac facilisis metus varius eu.  ",
+            "Nunc dignissim vel enim viverra ultrices.  ",
+            "Aliquam vitae pulvinar erat, quis consectetur metus.  ",
+            "Nulla tincidunt eu enim a vestibulum.  ",
+            "Aenean posuere non est quis ultricies.  ",
+            "Quisque hendrerit nunc non erat luctus, vel hendrerit dui placerat.  ",
+            "Aliquam venenatis lacinia urna vulputate imperdiet.  ",
+            "Sed sed finibus elit, in sollicitudin est.  ",
+            "Nullam ultrices mi non semper blandit.  ",
+            "In dignissim risus risus, ut porttitor ex tempus vel.  ",
+            "Ut luctus justo id lacinia feugiat.  ",
+            "Quisque vel urna in lectus viverra elementum sed sed ipsum.  ",
+            "Proin sed tempor enim, sit amet vulputate libero.  ",
+            "Cras tempor mauris sit amet condimentum faucibus.  ",
+            "Phasellus sollicitudin ultricies urna.  ",
+            "Aenean laoreet, urna non maximus cursus, massa leo tincidunt purus, pretium auctor justo nulla consequat mauris.  ",
+            "Vivamus sapien ipsum, elementum non arcu ornare, semper sagittis ipsum.  ",
+            "Nam et mi quis eros mattis iaculis.  ",
+            "Pellentesque commodo et nisi eget aliquam.  ",
+            "Aliquam vitae porttitor quam, ac tincidunt tellus.  ",
+            "Vivamus dictum varius sem eu rhoncus.  ",
+            "Pellentesque ac rutrum orci.  ",
+            "Praesent sollicitudin libero eu tellus interdum, nec scelerisque leo volutpat.  ",
+            "Aliquam ornare placerat eros ac lobortis.  ",
+            "Etiam magna dolor, condimentum id metus id, tristique fermentum erat.  ",
+            "Nunc sollicitudin enim et nisl rhoncus dignissim.  ",
+            "Fusce nec bibendum neque, accumsan rhoncus velit.  ",
+            "Nullam consectetur nibh sed ullamcorper venenatis.  ",
+            "Nulla euismod lectus nibh, eu mollis velit porta eget.  ",
+            "Aliquam at tortor lectus.  ",
+            "Quisque interdum mauris id tempor condimentum.  ",
+            "Maecenas finibus placerat enim pharetra tincidunt.  ",
+            "Mauris ipsum tortor, imperdiet eget dignissim scelerisque, vestibulum vitae sapien.  ",
+            "Suspendisse volutpat aliquam ipsum vitae bibendum.  ",
+            "Suspendisse aliquam dictum sem.  ",
+            "Mauris sed mi egestas, viverra lorem vel, laoreet dolor.  ",
+            "Sed placerat sed lacus volutpat luctus.  ",
+            "Aenean viverra dolor ut neque rutrum, sagittis pulvinar nisi feugiat.  ",
+            "Etiam posuere laoreet metus, nec vestibulum justo ultricies a.  ",
+            "Curabitur sit amet sodales orci, eu rutrum diam.  ",
+            "Donec mollis viverra diam sed vestibulum.  ",
+            "Nulla facilisi.  ",
+            "Suspendisse efficitur arcu nec eros vulputate, non viverra nunc molestie.  ",
+            "Donec rutrum lacinia ligula non pellentesque.  ",
+            "Nam pharetra neque in placerat posuere.  ",
+            "Suspendisse rhoncus massa eu molestie vulputate.  ",
+            "Integer enim ante, condimentum at euismod sit amet, posuere vel quam.  ",
+            "Nam ex est, tempor a libero a, efficitur dapibus urna.  ",
+            "Sed ac nisl mattis, posuere elit ut, condimentum ipsum.  ",
+            "Aliquam felis quam, dictum a orci scelerisque, finibus faucibus augue.  ",
+            "Sed sed diam felis.  ",
+            "In sed ullamcorper risus, vitae euismod ligula.  ",
+            "Sed volutpat sollicitudin est, id elementum turpis gravida accumsan.  ",
+            "Etiam at dapibus sem.  ",
+            "Maecenas nunc nulla, commodo a condimentum vitae, posuere vel ligula.  ",
+            "Quisque lacinia ligula orci, id blandit sapien dignissim sed.  ",
+            "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  ",
+            "In eu vestibulum ante.  ",
+            "Pellentesque ut gravida sapien.  ",
+            "Pellentesque rhoncus rutrum elit a tempor.  ",
+            "Aenean ullamcorper nulla nec magna commodo, nec iaculis nisl facilisis.  ",
+            "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean in sodales sapien, at suscipit velit.  ",
+            "Proin mattis massa non lacus fermentum, gravida porttitor justo suscipit.  ",
+            "Suspendisse potenti.  ",
+            "Curabitur velit tortor, consectetur sed purus nec, mollis venenatis nulla.  ",
+            "Proin interdum rutrum euismod.  ",
+            "Vivamus rutrum nunc vitae leo sollicitudin, quis pretium sem sollicitudin.  ",
+            "Nullam magna ex, auctor nec tellus in, aliquet fermentum neque.  ",
+            "Etiam tincidunt elementum maximus.  ",
+            "Cras fermentum nec neque id euismod.  ",
+            "Morbi neque lectus, feugiat id urna ac, commodo auctor velit.  ",
+            "Sed dapibus tincidunt lacinia.  ",
+            "Cras sagittis sed purus convallis aliquet.  ",
+            "Sed sed dui non ipsum malesuada pulvinar at nec urna.  ",
+            "Nam malesuada odio eu mi maximus, ut venenatis purus vehicula.  ",
+            "Cras elementum dolor vel est vulputate euismod.  ",
+            "Quisque ex lacus, consectetur sed dignissim id, sodales et dui.  ",
+            "Vestibulum at dui ullamcorper, eleifend magna sit amet, finibus purus.  ",
+            "Pellentesque interdum fringilla arcu.  ",
+            "Nullam in purus eu eros tincidunt suscipit ut sed lectus.  ",
+            "Nulla ac semper tortor.  ",
+            "Pellentesque vehicula quam in elit fringilla vestibulum.  ",
+            "Nam lacus est, egestas eget venenatis sit amet, finibus et metus.  ",
+            "Interdum et malesuada fames ac ante ipsum primis in faucibus.  ",
+            "Duis in felis augue.  ",
+            "Duis maximus eleifend nunc.  ",
+            "Proin velit urna, fermentum ac gravida sodales, mattis non nisi.  ",
+            "Pellentesque venenatis pharetra eros sit amet dictum.  ",
+            "Nunc lobortis sem vel justo suscipit, interdum vehicula erat condimentum.  ",
+            "Nam nec scelerisque nisl, id maximus lacus.  ",
+            "Nam ut iaculis enim.  ",
+            "Nullam malesuada magna sit amet ex dictum, ullamcorper sodales odio tempus.  ",
+            "Nam nunc velit, vestibulum rhoncus eros nec, elementum mollis lacus.  ",
+            "Nam bibendum augue in nisl rutrum euismod.  ",
+            "Nulla sed est volutpat, tempus ante nec, cursus urna.  ",
+            "Mauris tincidunt a risus id ultricies.  ",
+            "Fusce non luctus lacus.  ",
+            "Integer rutrum rutrum ligula in tristique.  ",
+            "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  ",
+            "Donec vestibulum magna ut iaculis condimentum.  ",
+            "Donec sed quam quis lectus maximus sagittis.  ",
+            "Nulla in ante eget lacus pharetra commodo eget et arcu.  ",
+            "Nulla eget enim eget massa placerat blandit.  ",
+            "Maecenas efficitur sem est, non iaculis purus faucibus ac.  ",
+            "Vivamus id elementum tellus, at ultrices diam.  ",
+            "Integer mollis dictum elit dapibus vehicula.  ",
+            "Cras dictum tincidunt maximus.  ",
+            "Praesent scelerisque lobortis dolor ac dapibus.  ",
+            "Duis condimentum in nisl eu cursus.  ",
+            "Integer non efficitur nisl.  ",
+            "Vestibulum pharetra non lectus ut fermentum.  ",
+            "Vestibulum nisi urna, vehicula in dolor et, vulputate egestas sem.  ",
+            "Suspendisse euismod neque convallis velit gravida, tempor fringilla massa porta.  ",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+            "Duis placerat euismod nunc ut laoreet.  ",
+            "Maecenas egestas velit eu ex ultricies, faucibus ullamcorper sem malesuada.  ",
+            "Nulla eget odio at elit pretium vehicula.  ",
+            "Pellentesque ut gravida nibh.  ",
+            "Praesent libero eros, bibendum eu ipsum id, hendrerit commodo leo.  ",
+            "In pellentesque pulvinar gravida.  ",
+            "Nunc ac hendrerit leo, sed dictum odio.  ",
+            "Sed rhoncus hendrerit posuere.  ",
+            "Aenean erat odio, rutrum vel ante at, dignissim gravida ipsum.  ",
+            "Curabitur in tristique leo, nec mollis felis.  ",
+            "Donec est sapien, faucibus condimentum tincidunt at, pulvinar et leo.  ",
+            "Phasellus bibendum interdum magna et feugiat.  ",
+            "Nunc vitae augue et ante porttitor porta.  ",
+            "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat.  ",
+            "Donec vitae ipsum ac ligula lobortis efficitur a tincidunt magna.  ",
+            "Aenean in sem risus.  ",
+            "Donec ut dui metus.  ",
+            "Donec a lectus vulputate, tempus diam et, rutrum orci.  ",
+            "Nulla pharetra lacinia ligula, eu dapibus odio efficitur eget.  ",
+            "Ut quis odio neque.  ",
+            "Aenean vehicula turpis erat.  ",
+            "Maecenas consectetur diam id nunc scelerisque, sed varius massa sollicitudin.  ",
+            "Sed blandit sed augue at dapibus.  ",
+            "In vitae purus mi.  ",
+            "Donec pulvinar sodales diam at aliquam.  ",
+            "Etiam at mi eget justo congue egestas.  ",
+            "Aliquam ut sodales ligula.  ",
+            "Vivamus egestas maximus mi vestibulum tincidunt.  ",
+            "Mauris purus sapien, pharetra quis rutrum at, rutrum at ante.  ",);
+    lorem = myArray[0];
+    
+
 // PHISH QUOTES
  
-    myArray[0] = new Array (
+    myArray[1] = new Array (
         "All of These Dreams",
         "If you go there, and after you do",
         "All of these dreams would be yours to pursue",
@@ -354,11 +889,11 @@
         "I hear the high pitched cavitation of propellers from afar",
         "So with meaningless excitement and a smooth atonal sound",
         "It\'s like a cross between a hurricane and a ship that\'s run aground" );   
-    phish = myArray[0]; 
+    phish = myArray[1]; 
  
 //TREK QUOTES
  
-    myArray[1] = new Array (
+    myArray[2] = new Array (
         "For everything, there is a first time.",
         "I have been — and always shall be — your friend.",
         "Live long, and prosper.",
@@ -408,7 +943,7 @@
         "Let’s see what’s out there.",
         "Course heading, Captain?",
         "…Second star to the right — and straight on ’til morning.");   
-    trek = myArray[1]; 
+    trek = myArray[2]; 
 
 //DEAD QUOTES
     myArray[2] = new Array (
@@ -707,22 +1242,22 @@
 
 //BUILD PARAGRAPHS, LIST ITEMS
  
-    var p = "<p><span class=\"hide\">&#x3C;p&#x3E;</span>";
+    var p = "<p><span class=\"hide\">&#x3C;p&#x3E;</span>"; //'HIDE' CLASS HIDES <P> and <LI> TAGS BY DEFAULT
     var pClose = "<span class=\"hide\">&#x3C;/p&#x3E;</span></p>";
     var li = "<span class=\"hide\">&#x3C;li&#x3E;</span>";
     var liClose ="<span class=\"hide\">&#x3C;/li&#x3E;</span><br>";
     var tags = document.getElementsByTagName("P").innerHTML;        
-    var element = document.getElementById("body");
+    var theme = document.getElementById("body");
 
 //showTags() SHOW HTML TAGS 
 
       function showHTML() {  
-            var tags = document.getElementsByTagName("MAIN");
+            var tags = document.getElementsByTagName("MAIN"); 
             var toggleActive = document.getElementById("showTags");                     
             for (var i = 0; i < tags.length; i++) {
-                  if (document.getElementById("showTags").checked===true) {
-                        tags[i].classList.add("show");
-                        toggleActive.classList.add("active");
+                  if (document.getElementById("showTags").checked===true) { 
+                        tags[i].classList.add("show"); // TOGGLE 'SHOW' CLASS TO HIDE OR REMOVE HTML TAGS 
+                        toggleActive.classList.add("active"); 
                         console.log('tags are visible');
                         
                   } else {
@@ -736,36 +1271,41 @@
 
 
 
-//radio(): CLEAR OUTPUT DIV; CHECK RADIO BUTTONS TO SELECT IPSUM
+//selectTHEME(): CLEAR OUTPUT DIV; CHECK RADIO BUTTONS TO SELECT IPSUM
  
-      function radio() {        
-      document.getElementById("ipsum-output").innerHTML="";
-      if (document.getElementById("phishOption").checked === true) {
-        element.classList.add("phishBody");        
-        element.classList.remove("trekBody");
-        element.classList.remove("liesBody")
-        }
-        //else if (document.getElementById("deadOption").checked === true) {
-        //element.classList.add("deadBody");
-        //element.classList.remove("phishBody");
-        //element.classList.remove("trekBody");
-        //element.classList.remove("liesBody")}
-      else if (document.getElementById("trekOption").checked === true) {
-        element.classList.add("trekBody");
-        element.classList.remove("phishBody");        
-        element.classList.remove("liesBody")
+      function selectTheme(){ 
+      
+      document.getElementById("ipsum-output").innerHTML=""; //CLEAR THE OUTPUT DIV EACH TIME A THEME IS SELECTED
+
+      if (document.getElementById("loremOption").checked === true) {
+        theme.classList.add("loremBody");
+        theme.classList.remove("phishBody");
+        theme.classList.remove("liesBody");
+        theme.classList.remove("trekBody");            
+    } else if (document.getElementById("phishOption").checked === true) { //ADD/REMOVE THE BODY CLASS BASED ON WHICH OPTION IS SELECTED
+        theme.classList.add("phishBody");        
+        theme.classList.remove("loremBody");
+        theme.classList.remove("trekBody");
+        theme.classList.remove("liesBody")        
+    } else if (document.getElementById("trekOption").checked === true) {
+        theme.classList.add("trekBody");
+        theme.classList.remove("loremBody");
+        theme.classList.remove("phishBody");        
+        theme.classList.remove("liesBody")
     } else if (document.getElementById("liesOption").checked === true) {
-        element.classList.add("liesBody");
-        element.classList.remove("phishBody");
-        element.classList.remove("trekBody");        
-        } else{alert("Choose your ipsum");
+        theme.classList.add("liesBody");
+        theme.classList.remove("loremBody");
+        theme.classList.remove("phishBody");
+        theme.classList.remove("trekBody");        
+
+    } else{alert("Choose your ipsum");  //PROMPT USER TO SELECT AN IPSUM IN CASE ONE IS NOT ALREADY SELECTED
 
         }
       }
  
 //SHUFFLE
  
-    function shuffle(myArray) {
+    function shuffle(myArray) { //SHUFFLE FUNCTION 
     var i = 0,
     j = 0, 
     temp = null
@@ -780,10 +1320,10 @@
  
 //shuffleAll(): SHUFFLE ALL THE THINGS: 
  
-    function shuffleAll() {
+    function shuffleAll() { //SHUFFLE EACH ARRAY SEPARATELY
+        shuffle(lorem);
         shuffle(phish);
-        shuffle(trek);
-        shuffle(dead);
+        shuffle(trek);        
         shuffle(lies);
     }
  
@@ -791,27 +1331,29 @@
      
     function inject(i) {
         shuffleAll();
-        var output = document.getElementById("ipsum-output").innerHTML;
-        var output = output + i;
+        var output = document.getElementById("ipsum-output").innerHTML; //OUTPUT GOES IN THE IPSUM OUTPUT DIV
+        var output = output + i; // OUTPUT IS ADDED TO WHATEVER IS THERE ALREADY
         
         document.getElementById("ipsum-output").innerHTML = output;        
     }
  
-//add(a, i): ADD ITEM (PARAMETERS: ARRAY, ITEM)
+//add(a, i): ADD ITEM (PARAMETERS: ARRAY (PHISH, DEAD or LIES), ITEM (EITHER PARAGRAPOH OR LIST ITEM)
  
-    function add(a, i) {
+    function add(a, i) { 
         shuffleAll();
         inject(i);
     }
  
+
+   
 //pButton(): NEW PARAGRAPH
 
     function pButton() {
         shuffleAll();
-        if (document.getElementById("phishOption").checked === true) {
-            var a = phish;
-        // } else if (document.getElementById("deadOption").checked === true) {
-            //var a = dead; } 
+        if (document.getElementById("loremOption").checked === true) { //CHECK TO SEE WHICH IPSUM IS SELECTED; DEFINE VARIABLE ACCORDINGLY
+            var a = lorem;
+        } else if (document.getElementById("phishOption").checked === true) { 
+            var a = phish;        
         } else if (document.getElementById("trekOption").checked === true) {
             var a = trek;
         } else if (document.getElementById("liesOption").checked === true) {
@@ -819,8 +1361,13 @@
         } else{
           alert("Choose your ipsum");
         };
-        var n = Math.floor(Math.random() * 8 + 2);
-        var para = p + (a.slice(1, n)) + pClose;
+        
+        var n = Math.floor(Math.random() * 8 + 2); // PICK RANDOM NUMBER BETWEEN 2-8 OF SENTENCES PER PARAGRAPH
+
+        
+        var para = p + (a.slice(1, n)) + pClose; //TAKE THE FIRST 'N' ITEMS IN THE ARRAY AND ENCLOSE THEM IN PARAGRAPH TAGS
+
+        //ADD TO THE OUTPUT DIV
         add(a, para);
     }
  
@@ -829,9 +1376,7 @@
     function liButton() {
         shuffleAll();
             if (document.getElementById("phishOption").checked === true) {
-            var a = phish;
-            //} else if (document.getElementById("deadOption").checked === true) {
-            //var a = dead;
+            var a = phish;            
             } else if (document.getElementById("trekOption").checked === true) {
             var a = trek;       
         } else if (document.getElementById("liesOption").checked === true) {
@@ -855,11 +1400,12 @@
         } else if(window.getSelection){var range=document.createRange();
             range.selectNode(document.getElementById("ipsum-output"));
             window.getSelection().addRange(range);document.execCommand("copy");alert("text copied")
-        } else{}}
+        } else{}
+    }
+
+selectTheme();
 
 
-
-
-      radio();
 
       
+

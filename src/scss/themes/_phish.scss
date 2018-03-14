@@ -27,10 +27,9 @@
 
 			@media (min-width:1199px) {.btn {padding: 12px 30px !important;}}
 
-			.choose-ipsum label:nth-child(1) {
-				//@include activeRadio;
-				background-color: red !important;						
-			}		
+			.btn-phish {
+				@include activeRadio;
+			}
 		
 			.choose-ipsum label {			
 				//padding: 40px;			

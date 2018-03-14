@@ -28,11 +28,14 @@
 
   }
 
-@mixin flexBox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+
+//FLEXBOX  
+
+  @mixin flexBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
 // THEME MIXIN
 
@@ -74,8 +77,11 @@
           font-weight: bold;
           background-color: $activeButton !important;
           color:white !important;        
+          border-style:none;
+          cursor: default;
     }
 
+        
 
 //TREK BUTTONS
 
@@ -103,6 +109,8 @@
   @mixin borderRight($width, $style, $color) {border-right:$width $style $color;}
   @mixin borderBottom($width, $style, $color) {border-bottom:$width $style $color;}
   @mixin borderLeft($width, $style, $color) {border-left:$width $style $color;}
+
+//TRANSITIONS
 
 
 
