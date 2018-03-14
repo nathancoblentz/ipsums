@@ -6,14 +6,13 @@
 
 	//INCLUDE LIES THEME
 
-		@include theme($liesThemeColor, $liesHeading, $liesBody, $liesBackground);
-		background-size: cover;
+		@include theme($liesThemeColor, $liesHeading, $liesBody, $liesBackground);		
 //
 	//MAIN CONTAINER		
 //
 		main.container {						
 //				
-			background-color: white;
+			background-color: black;
 			
 		.btn-lies {
 					@include activeRadio;
@@ -22,7 +21,7 @@
 			.btn {
 
 				border-radius: 50px;//
-				background-color: #000;
+				background-color: fuchsia !important;
 				color: #fff;			
 				padding: 2px 20px !important;
 
@@ -44,6 +43,7 @@
 			#ipsum-output {
 				text-align: justify;
 				font-size: 16px;				
+				color: white;
 			}
 //
 //
