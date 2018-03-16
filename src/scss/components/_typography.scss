@@ -23,31 +23,31 @@ h1, h2, h3, h4, h5, h6 {
 	
 	.titles {
 		text-shadow: 0.5px 0.5px 0.5px #000000;
-		padding: 20px;
+		padding: 20px;		
 	}
 
-	@media(min-width:960px) {
-		.phish-title {
-			font-size: 8em;
-		}
+	@media(max-width:768px) {
+		.trek-title {font-size:5em;}
 
-		.trek-title {
-			font-size:8em;
-		}
-
-		.lies-title {
-			font-size: 5em;
-		}
 	}
+
+	@media(min-width:768px) {
+		.phish-title {font-size: 8em;}
+		.trek-title {font-size:10em;}
+		.lies-title {font-size: 8em;}
+		.lorem-title {font-size: 8em;}
+	}
+
 
 //HIDE BY DEFAULT
 
-	.phish-title, .trek-title, .lies-title, .lies-link {display:none;}
+	.lorem-title, .phish-title, .trek-title, .lies-title, .lies-link {display:none;}
 
 //ADD TITLE FOR EACH THEME
 
-	.loremBody .lorem-link,
+	.liesBody .lies-link,
 	.liesBody .lies-title ,
 	.phishBody .phish-title,
-	.trekBody .trek-title {display:block;}
+	.trekBody .trek-title,
+	.loremBody .lorem-title {display:block;}
 

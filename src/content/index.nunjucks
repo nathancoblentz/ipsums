@@ -6,10 +6,11 @@
 <header class="container">
   <a class="float-right mt-3" href="https://github.com/nathancoblentz/ipsums" target="blank"><i class="fab fa-github-alt fa-2x"></i></a>
   <div class="titles text-center">
+      <h1 class="lorem-title">Boring Ipsum</h1>
       <h1 class="phish-title">Phishsum</h1>
       <h1 class="trek-title">Treksum</h1>
       <h1 class="lies-title">House of Lies</h1>
-      <a class="lies-link" href="https://www.nytimes.com/interactive/2017/06/23/opinion/trumps-lies.html" target="blank">from NYT</a>
+      
   </div>
 
 </header>

@@ -10,13 +10,15 @@
 
 	//TREK CONSOLE STYLE BORDER
 
+		.container {}	
+
 		@media (max-width:767px) {
-			    //main {@include border(150px, solid, $trekBeige, 12px 90px);}
-			    //main .container {border-radius: 0px}
+		body {@include border(150px, solid, $trekBeige, 12px 90px !important);}
 		}
+
 		@media (min-width:768px) {
 			    main {@include border(150px, solid, $trekBeige, 12px 90px);}
-			    main .container {border-radius: 50px}
+				.btn {padding-left: 30px;}
 
 		}
 
@@ -27,13 +29,6 @@
 			//CONTAINER BACKGROUND
 
 				background:black;
-
-			//PADDING FOR IPSUM BUTTONS 
-
-					@media (min-width:600px) {
-						.btn {padding-left: 40px !important;}
-					}
-
 
 			//TREK BUTTON COLORS
 			
@@ -54,7 +49,7 @@
 					}
 				}
 
-				#ipsum-output {color: $trekOrange !important;}
+				#ipsum-output {color: $trekOrange}
 
 		}
 	

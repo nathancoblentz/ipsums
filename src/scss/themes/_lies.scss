@@ -6,48 +6,56 @@
 
 	//INCLUDE LIES THEME
 
-		@include theme($liesThemeColor, $liesHeading, $liesBody, $liesBackground);		
+		@include theme($liesThemeColor, $liesHeading, $liesBody, $liesBackground);	
+		background-size: cover;	
+		background-position: fixed !important;
+
+
+		h1 {
+			color: #fff !important;
+		}
+
+		h6 {
+			color: #ddd !important;
+		}
 //
 	//MAIN CONTAINER		
-//
-		main.container {						
+
+main.container {
+	padding-top:50;
+}
+
+		main.container, header {						
 //				
 			background-color: black;
+			opacity: 0.8;		
+
+			.btn {			
+				background-color: $liesThemeColor !important;
+				border-radius: 0;
+				color: #fff;
+				}	
+
+			.btn-lies {background-color: orange !important;}
+
+			@media (min-width:1199px) {.btn {padding: 12px 30px !important;}}
 			
-		.btn-lies {
-					@include activeRadio;
-			}
-
-			.btn {
-
-				border-radius: 50px;//
-				background-color: fuchsia !important;
-				color: #fff;			
-				padding: 2px 20px !important;
-
-			}		
-
-			@media (mzx-width:768px) {.btn {padding: 0 10px !important;}}
-			.btn-group {
-				@include flexBox;
-			}//
-
-//
 			.row {
-
 				padding: 10px 0;
-				@include borderBottom(4px, solid,  $liesThemeColor);				
-
+				@include borderBottom(4px, solid,  $liesThemeColor);	
+				@include borderTop(4px, solid,  $liesThemeColor);				
+				padding: 30px 0;
 			}
 //
 			#ipsum-output {
 				text-align: justify;
 				font-size: 16px;				
-				color: white;
+				color: #bbb;
+				padding: 15px;
 			}
 //
 //
-				.truth {
+				span.truth {
 				@extend .text-info;
 				@extend .small;
 				font-style: italic;

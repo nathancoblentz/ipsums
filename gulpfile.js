@@ -322,3 +322,13 @@
          if (err) throw err; 
        }); 
       });
+
+//var pump = require('pump');
+//
+//gulp.task('uglify-error-debugging', function (cb) {
+  //pump([
+    //gulp.src('app/**/*.js'),
+    //uglify(),
+    //gulp.dest('./dist/')
+  //], cb);
+//});
